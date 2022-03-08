@@ -8,7 +8,7 @@ def csvimport():
     
     
     #Opens the csv file and creates a reader that puts the lines into a list variable
-    with open('english premier league data1.csv', 'r') as csvfile:
+    with open('english premier league data.csv', 'r') as csvfile:
         
         lines = csvfile.readlines()
         homeTeam = []
